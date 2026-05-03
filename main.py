@@ -7,7 +7,7 @@ from pathlib import Path
 # path for dataset
 DATA_DIR = Path("dataset/processed")
 # load datasets
-flights = pd.read_csv(DATA_DIR / "flights_cleaned.csv")
+flights = pd.read_parquet(DATA_DIR / "flights_cleaned.parquet")
 airline_summary = pd.read_csv(DATA_DIR / "airline_summary.csv")
 airport_summary = pd.read_csv(DATA_DIR / "airport_summary.csv")
 route_summary = pd.read_csv(DATA_DIR / "route_summary.csv")

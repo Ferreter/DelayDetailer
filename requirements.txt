@@ -2,4 +2,4 @@ shiny==1.6.1
 shinywidgets
 pandas
 plotly
-pyarrow>=10.0.0
+pyarrow>=10.0.0 

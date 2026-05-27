@@ -1080,7 +1080,8 @@ def server(input, output, session):
 
         return render.DataGrid(
             data,
-            filters=True
+            filters=True,
+            fillable =True,
         )
 
 app = App(app_ui, server)
